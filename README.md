@@ -20,7 +20,6 @@ TNS-Backend/
 │   ├── UsersController.cs 
 ├── Data/
 │   ├── AppDbContext.cs 
-│   ├── AppDbContextFactory.cs 
 ├── Models/
 │   ├── Department.cs 
 │   ├── User.cs 
