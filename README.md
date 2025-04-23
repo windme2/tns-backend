@@ -44,7 +44,7 @@ The database consists of two main tables :
 | Column | Type | Description |
 |--------|------|------------|
 | **Id** | `int` | Auto-generated primary key 🔑 |
-| **Username** | `text` | User’s name (required) 🧑 |
+| **FullName** | `text` | User’s name (required) 🧑 |
 | **DepartmentId** | `int` | Foreign key linking to **Departments** (deleting a department removes its users) 🔗 |
 
 ---
