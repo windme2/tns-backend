@@ -13,6 +13,12 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<User>()
+            .HasOne(u => u.Department)
+            .WithMany(d => d.Users)
+            .HasForeignKey(u => u.DepartmentId)
+            .OnDelete(DeleteBehavior.Cascade);
+
         modelBuilder.Entity<Department>().HasData(
             new Department { Id = 1, Name = "Services" },
             new Department { Id = 2, Name = "Marketing" },
