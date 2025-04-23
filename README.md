@@ -70,6 +70,7 @@ Update the connection string in appsettings.json:
 "ConnectionStrings": {
   "DefaultConnection": "Host=localhost;Database=tnsdb;Username=postgres;Password=admin"
 }
+
 ```
 
 ### 🚀Run Migrations :
@@ -82,8 +83,9 @@ dotnet run
 ```
 ---
 
-### API will be available at 🔗 [http://localhost:5000/swagger/](http://localhost:5000/swagger/)
-
+### 📜 API Documentation  
+After starting the project, you can access the API documentation via Swagger UI at:  
+[http://localhost:5000/swagger](http://localhost:5000/swagger)  
 
 ## 🌐 API Endpoints
 
