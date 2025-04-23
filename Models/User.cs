@@ -9,4 +9,6 @@ public class User
 
     [JsonIgnore] // Detect JSON Cycle
     public Department? Department { get; set; }
+
+    public string? DepartmentName => Department?.Name;
 }
