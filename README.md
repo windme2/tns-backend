@@ -1,13 +1,13 @@
-# 🚀TNS Backend
+# TNS Backend 🚀
 
 ## 📖 Overview
 This backend API, built with **.NET 8** and **PostgreSQL**, handles CRUD operations for **Departments** and **Users** in a **1:M relationship**.
 
-## 🛠️ Tools Used
-- 💻 **Visual Studio Code**: Code editor.
-- 🌿 **GIT**: Version control.
+## 🛠️ Tech Stack
 - 🖥️ **.NET SDK 8**: Framework for the API.
 - 🐘 **PostgreSQL**: Database for Departments and Users.
+- 🌿 **GIT**: Version control.
+- 💻 **Visual Studio Code**: Code editor.
 
 ---
 
@@ -108,9 +108,33 @@ After starting the project, you can access the API documentation via Swagger UI 
 
 ---
 
-## 📦 GitHub Repository
+## 🤝 Contributing
 
-The source code is available at: https://github.com/windme2/tns-backend 🌐
+Follow these steps to contribute to the project:
+
+1. Fork the repository
+2. Clone your fork:
+```sh
+git clone https://github.com/wineme2/tns-backend.git
+cd tns-backend
+```
+
+3. Create a feature branch:
+```sh
+git checkout -b feature/tns-backend
+```
+
+4. Make your changes and commit:
+```sh
+git commit -m "Add  feature tns-backend"
+```
+
+5. Push to your fork:
+```sh
+git push origin feature/tns-backend
+```
+
+6. Create a Pull Request from your fork to our main repository
 
 ---
 
