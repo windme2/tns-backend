@@ -1,6 +1,5 @@
 # TNS Backend 🚀
 
-## 📖 Overview
 This backend API, built with **.NET 8** and **PostgreSQL**, handles CRUD operations for **Departments** and **Users** in a **1:M relationship**.
 
 ## 🛠️ Tech Stack
