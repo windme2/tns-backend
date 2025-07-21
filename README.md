@@ -8,27 +8,6 @@ This backend API, built with **.NET 8** and **PostgreSQL**, handles CRUD operati
 - 🌿 **GIT**: Version control.
 - 💻 **Visual Studio Code**: Code editor.
 
----
-
-## 📂 Project Structure
-Key components of the project :
-```sh
-TNS-Backend/ 
-├── Controllers/
-│   ├── DepartmentsController.cs 
-│   ├── UsersController.cs 
-├── Data/
-│   ├── AppDbContext.cs 
-├── Models/
-│   ├── Department.cs 
-│   ├── User.cs 
-├── Program.cs
-├── appsettings.json
-└── README.md
-```
-
----
-
 ## 🗃️ Database Schema
 The database consists of two main tables :
 
@@ -47,7 +26,7 @@ The database consists of two main tables :
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Getting Started
 
 ### 📥 Clone the Repository
 ```sh
@@ -79,7 +58,6 @@ dotnet ef database update
 ```sh
 dotnet run
 ```
----
 
 ### 📜 API Documentation  
 After starting the project, you can access the API documentation via Swagger UI at:  
@@ -104,8 +82,6 @@ After starting the project, you can access the API documentation via Swagger UI 
 | POST | /api/Users | Create a User ➕ | 
 | PUT | /api/Users/{id} | Update a User ✏️ | 
 | DELETE | /api/Users/{id} | Delete a User 🗑️ | 
-
----
 
 ## 🤝 Contributing
 
@@ -134,8 +110,6 @@ git push origin feature/tns-backend
 ```
 
 6. Create a Pull Request from your fork to our main repository
-
----
 
 ## 📄 License
 
